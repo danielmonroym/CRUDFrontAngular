@@ -13,6 +13,7 @@
                         <th>SALARIO</th>
                         <th>CARGO</th>
                         <th>DIRECCIÓN</th>
+                        <th>ANTIGUEDAD</th>
                         <th>ACCIONES</th>
                     </tr>
                 </thead>
@@ -24,6 +25,7 @@
                     <td>{{persona.salario}}</td>
                     <td>{{persona.cargo}}</td>
                     <td>{{persona.direccion}}</td>
+                    <td>{{persona.antiguedad}}</td>
                     <td>
                         <button (click)="Editar(persona)"class="btn btn-warning">Editar</button>
                         <button (click)="Delete(persona)"class="btn btn-danger ml-1">Eliminar</button>

@@ -5,5 +5,6 @@ export class Persona{
     salario:number;
     cargo:String;
     direccion:String;
+    antiguedad:number;
 
 }
